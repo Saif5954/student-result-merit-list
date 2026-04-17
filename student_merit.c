@@ -15,6 +15,12 @@ int compare(struct Student a, struct Student b) {
 
 	if (a.m1 != b.m1)
 		return b.m1 - a.m1;         // Subject priority
+		
+	if (a.m2 != b.m2)
+        return b.m2 - a.m2;
+
+    if (a.m3 != b.m3)
+        return b.m3 - a.m3;
 
 	if (a.roll != b.roll)
 		return a.roll - b.roll;     // Smaller roll first
